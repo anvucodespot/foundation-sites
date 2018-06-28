@@ -157,6 +157,8 @@ $reveal-overlay-background: rgba($black, 0.45) !default;
     margin-right: auto;
     margin-left: auto;
     overflow-y: auto;
+    // Lets it scroll lazy on iOS devices
+    -webkit-overflow-scrolling: touch;
 
     // Remove padding
     &.collapse {
